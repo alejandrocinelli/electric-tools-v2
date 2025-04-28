@@ -17,7 +17,7 @@ const Calculos = () => {
           to="/calculos/kw-a-amperes"
           className="border rounded-xl p-4 shadow bg-white hover:shadow-lg transition cursor-pointer block"
         >
-          <h2 className="text-xl font-semibold mb-2">⚡ kW a Amperes (trifásico)</h2>
+          <h2 className="text-xl font-semibold mb-2">⚡ kW/kVA a Amperes (trifásico)</h2>
           <p className="text-sm text-gray-500">
             Conversión de potencia activa a corriente en un sistema trifásico.
           </p>
@@ -37,6 +37,16 @@ const Calculos = () => {
         >
           <h2 className="text-xl font-semibold mb-2">❄️ Frigorías a kW</h2>
           <p className="text-sm text-gray-500">Para dimensionar equipos de aire acondicionado.</p>
+        </Link>
+
+        <Link
+           to="/calculos/calculadora-cables"
+           className="border rounded-xl p-4 shadow bg-white hover:shadow-lg transition cursor-pointer block"
+        >
+          <h2 className="text-xl font-semibold mb-2">🔌 Calculadora de cables según la potencia</h2>
+            <p className="text-sm text-gray-500">
+                Selecciona la potencia para determinar el tamaño adecuado del cable.
+              </p>
         </Link>
 
         {/* Podés seguir agregando más cards así */}

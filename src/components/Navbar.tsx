@@ -20,7 +20,7 @@ function Navbar() {
         <div className={`md:flex space-x-6 ${open ? 'block' : 'hidden'} md:block`}>
           <Link to="/" className="block py-2">Inicio</Link>
           <Link to="/calculos" className="block py-2">Cálculos</Link>
-          <Link to="/links" className="block py-2">Tutoriales</Link>
+          <Link to="/tutoriales" className="block py-2">Tutoriales</Link>
           <Link to="/documentacion" className="block py-2">Documentación</Link>
         </div>
       </div>

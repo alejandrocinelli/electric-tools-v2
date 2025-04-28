@@ -4,6 +4,7 @@ import Home from './pages/home';
 import Calculos from './pages/calculos/calculos';
 import KwToAmperes from './components/KwToAmperes';
 import KWToKVA from './pages/calculos/KWToKVA';
+import Tutorials from './pages/Tuturiales/Tutorials';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <Route path="/calculos" element={<Calculos />} />
         <Route path="/calculos/kw-a-amperes" element={<KwToAmperes />} />
         <Route path="/calculos/kw-a-kva" element={<KWToKVA />} />
-        <Route path="/links" element={"<Links />"} />
+        <Route path="/tutoriales" element={<Tutorials/>} />
         <Route path="/documentacion" element={"<Documentacion />"} />
       </Routes>
     </div>

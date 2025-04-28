@@ -19,8 +19,8 @@ export const links = [
       url: import.meta.env.VITE_URL_CAPACITY
     },
     {
-      title: 'Tablero Control Shared',
-      description: 'Pagina Share Services.. Contratos.. NPA .. etc',
+      title: 'Tablero Control Shared - USAR EDGE',
+      description: 'Pagina Share Services.. Contratos.. NPA .. etc USAR EDGE',
       image: 'https://img.icons8.com/ios-filled/100/folder-invoices.png',
       url: import.meta.env.VITE_URL_SHARE
     },
@@ -34,6 +34,12 @@ export const links = [
       title: 'Grafanna',
       description: 'Visualizador en Tiempo Real.',
       image: 'https://img.icons8.com/ios-filled/100/monitor.png',
-      url: 'https://www.enre.gov.ar'
+      url: import.meta.env.VITE_URL_GRAFANA
+    },
+    {
+      title: 'Tablero de Obras Capacidad',
+      description: 'Excel.',
+      image: 'https://img.icons8.com/?size=100&id=11566&format=png&color=000000',
+      url: import.meta.env.VITE_URL_TOC
     },
   ];
