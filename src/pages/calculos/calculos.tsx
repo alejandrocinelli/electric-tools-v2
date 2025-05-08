@@ -43,9 +43,9 @@ const Calculos = () => {
            to="/calculos/calculadora-cables"
            className="border rounded-xl p-4 shadow bg-white hover:shadow-lg transition cursor-pointer block"
         >
-          <h2 className="text-xl font-semibold mb-2">🔌 Calculadora de cables según la potencia</h2>
+          <h2 className="text-xl font-semibold mb-2">🔌 Calculadora de cables Corriente Continua</h2>
             <p className="text-sm text-gray-500">
-                Selecciona la potencia para determinar el tamaño adecuado del cable.
+                Selecciona la potencia para determinar el tamaño adecuado del cable en Corriente Continua
               </p>
         </Link>
 

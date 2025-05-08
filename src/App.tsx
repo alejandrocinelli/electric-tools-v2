@@ -5,6 +5,7 @@ import Calculos from './pages/calculos/calculos';
 import KwToAmperes from './components/KwToAmperes';
 import KWToKVA from './pages/calculos/KWToKVA';
 import Tutorials from './pages/Tuturiales/Tutorials';
+import DCWireCalculator from './components/DCWireCalculator';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/calculos/kw-a-amperes" element={<KwToAmperes />} />
         <Route path="/calculos/kw-a-kva" element={<KWToKVA />} />
         <Route path="/tutoriales" element={<Tutorials/>} />
+        <Route path="/calculos/calculadora-cables" element={<DCWireCalculator />} />
         <Route path="/documentacion" element={"<Documentacion />"} />
       </Routes>
     </div>
